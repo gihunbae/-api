@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3개의 컬럼으로 그리드 생성 */
+  gap: 20px; /* 그리드 아이템 사이의 간격 설정 */
+  justify-items: center; /* 그리드 아이템 가로 정렬을 중앙으로 설정 */
+  align-items: center; /* 그리드 아이템 세로 정렬을 중앙으로 설정 */
+}
+
+.container {
+  width: 100%;
+  max-width: 250px;
+  padding: 20px; /* 컨테이너 패딩 설정 */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
